@@ -1,0 +1,648 @@
+body{
+    overflow-x: hidden;
+}
+
+.Navegacion{
+    line-height: .5;
+    background-color: #f4ece6;
+    color: #000; 
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    bottom: 650px;
+}
+
+.nav1{
+    
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    right: 350px;
+    font-size: 17px;
+
+
+}
+
+.nav1:hover{
+    text-decoration:underline;
+}
+
+.nav2{
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    right: 300px;
+    font-size: 17px;
+
+
+}
+
+.nav2:hover{
+    text-decoration:underline;
+}
+
+.nav3{
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    right: 250px;
+    font-size: 17px;
+
+
+}
+
+.nav3:hover{
+    text-decoration:underline;
+}
+
+.nav4{
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    right: 200px;
+    font-size: 17px;
+    
+
+}
+
+.nav4:hover{
+    text-decoration:underline;
+}
+
+.nav1-1{
+    text-decoration: none;
+    position: relative;
+    top: 75px;
+    font-size: 17px;
+    left: 200px;
+    list-style: none;
+
+}
+
+.nav1-2{
+    text-decoration: none;
+    position: relative;
+    top: 55px;
+    font-size: 17px;
+    left: 425px;
+    list-style: none;
+
+}
+
+.nav1-3{
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    font-size: 17px;
+    left: 700px;
+    list-style: none;
+
+}
+
+.nav1-4{
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    font-size: 17px;
+    left: 1000px;
+    list-style: none;
+}
+
+.frase{
+    line-height: 1.5;
+    background-color: #f07d69;
+    color: #000; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 700px;
+    text-align: center;
+    text-transform:capitalize;
+    font-family: GT Eesti Light;
+    font-size: 12px;
+}
+
+.flotar{
+    margin-left: 15px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.imgFlotar{
+    margin-top: 5px;
+    float: left;
+    height: 60px;
+
+}
+
+
+.centrado{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dramatico{
+    position: absolute;
+    left: 190px;
+}
+
+.dramatico2{
+    position: absolute;
+    left: 30px;
+}
+
+.Division{
+    clear: left;
+    line-height: 1.1;
+    background-color: #f4ece6;
+    color: #000; 
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    left: 0px;
+    right: 0px;
+    bottom: 120px;
+}
+
+.Lore{
+    clear: left;
+    color: #000; 
+    position: absolute;
+    top: 675px;
+    left: 100px;
+    right: 0px;
+    bottom: 0px;
+}
+.Aimep3{
+    position: absolute;
+    right: 850px;
+}
+
+.ImgAimep3{
+    float: right;
+    position: absolute;
+    right: 250px;
+    width: 280px;
+    top: 10px;
+
+}
+
+
+
+.contenedor{
+    clear: left;
+    color: white;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+ 
+    
+}
+
+.texto{
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+    width: 40%;
+    text-align: justify;
+
+}
+.texto1{
+    margin-top: 50px;
+
+    float: left;
+    text-align: justify;
+    width: 40%;
+    margin-right: 70px;
+    margin-left: 40px;
+
+}
+
+.imagenJabba{
+    margin-top: 10px;
+    clear: left;
+    height: 350px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    
+}
+
+.comentarios{
+    clear: left;
+    color: #000; 
+    position: absolute;
+    top: 1100px;
+    left: 0px;
+    right: 400px;
+    bottom: 0px;
+
+}
+
+
+.centrado2{
+    position: absolute;
+    top: 25%;
+    right: 410px;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.textos{
+    clear: left;
+    color: #000; 
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    right: 450px;
+    bottom: 0px;
+
+}
+
+.imagenComillas{
+    float: left;
+    position: absolute;
+    right: 540px;
+    top: 15px;
+    width: 30px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+ 
+}
+
+.boton1{
+    position: absolute;
+    top: 170px;
+    bottom: 0px;
+    left: 5px;
+    width: 8px;
+    height: 10px;
+    background-color: #f07d69;
+    border: none;
+    cursor: pointer;
+
+}
+
+.boton2{
+    position: absolute;
+    top: 170px;
+    bottom: 0px;
+    left: 25px;
+    width: 8px;
+    height: 10px;
+    background-color: rgb(209, 206, 206);
+    border: none;
+    cursor: pointer;
+
+}
+
+.boton3{
+    position: absolute;
+    top: 170px;
+    bottom: 0px;
+    left: 45px;
+    width: 8px;
+    height: 10px;
+    background-color: rgb(209, 206, 206);
+    border: none;
+    cursor: pointer;
+
+}
+
+.boton4{
+    position: absolute;
+    top: 170px;
+    bottom: 0px;
+    left: 65px;
+    width: 8px;
+    height: 10px;
+    background-color: rgb(209, 206, 206);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.lineaTitulo{
+    height: .5px;
+    background-color: white;
+}
+
+.lineaComentarios{
+    height: 2px;
+    background-color: black;
+    border: none;
+    width: 400px;
+}
+
+.Descuento{
+
+    clear: left;
+    background-color: #8fbfb3;
+    position: absolute;
+    text-align: center;
+    top: 1400px;
+    left: 0px;
+    right: 0px;
+    bottom: -800px;
+}
+
+
+.controls{
+    border: none;
+    width: 250px;
+    height: 25px;
+}
+
+.botons{
+    background-color: #000;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.botons:hover{
+    background-color: #575555;
+
+}
+
+.pie{
+    clear: left;
+    background-color: black;
+    position: absolute;
+    
+    text-align: center;
+    top: 1540px;
+    left: 0px;
+    right: 0px;
+    bottom: -1100px;
+}
+
+.flotar2{
+    margin-left: 30px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.direccion{
+    clear: left;
+    margin-left: 30px;
+    float: left;
+    font-size: 13px;
+    text-align: justify;
+    color: white;
+}
+
+.numero{
+    clear: left;
+    margin-left: 30px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 45px;
+}
+
+.correo{
+    clear: left;
+    margin-left: 30px;
+    float: left;
+    font-size: 12px;
+    text-align: justify;
+    color: white;
+    margin-top: 0px;
+}
+
+.divisionAcerca{
+    position: absolute;
+    height: 2px;
+    background-color: white;
+    border: none;
+    width: 550px;
+
+    /*Acomodar las lineas*/
+    top: 65px;
+    left: 500px;
+}
+
+
+.acercaDe{    
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    font-weight: bold;
+    /*Acomodar las lineas*/
+    top: 90px;
+    left: 500px;
+}
+
+.acerca1{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    /*Acomodar las lineas*/
+    top: 120px;
+    left: 500px;
+}
+
+.acerca2{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    /*Acomodar las lineas*/
+    top: 140px;
+    left: 500px;
+}
+
+.acerca3{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 160px;
+    left: 500px;
+}
+
+.acerca3:hover{
+    color: #FF6B6B;
+    
+}
+
+.redes{
+    position: absolute;
+    height: 1px;
+    background-color: white;
+    border: none;
+    width: 550px;
+
+    /*Acomodar las lineas*/
+    top: 190px;
+    left: 500px;
+}
+
+.info1{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    font-weight: bold;
+    /*Acomodar las lineas*/
+    top: 90px;
+    left: 750px;
+}
+
+.info2{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 120px;
+    left: 750px;
+}
+
+.info2:hover{
+    color: #FF6B6B;
+}
+
+.info3{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 140px;
+    left: 750px;
+}
+
+.info3:hover{
+    color: #FF6B6B;
+}
+
+.info4{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 160px;
+    left: 750px;
+}
+
+.info4:hover{
+    color: #FF6B6B;
+}
+
+.info5{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 120px;
+    left: 900px;
+}
+
+.info5:hover{
+    color: #FF6B6B;
+}
+
+.info6{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 140px;
+    left: 900px;
+}
+
+
+.info6:hover{
+    color: #FF6B6B;
+}
+
+.textoredSocial{
+    position: absolute;
+    color: white;
+ 
+       /*Acomodar las lineas*/
+       top: 190px;
+       left: 500px;
+
+}
+
+
+.redSocial1{
+    position: absolute;
+    filter: invert(100%);
+    width: 45px;
+    height: 45px;
+       /*Acomodar las lineas*/
+       top: 240px;
+       left: 500px;
+
+}
+
+.redSocial2{
+    position: absolute;
+    filter: invert(100%);
+    width: 38px;
+    height: 38px;
+       /*Acomodar las lineas*/
+       top: 245px;
+       left: 550px;
+
+}
+
+
+.redSocial3{
+    position: absolute;
+    filter: invert(100%);
+    width: 45px;
+    height: 45px;
+       /*Acomodar las lineas*/
+       top: 240px;
+       left: 600px;
+}
+
+
+li{
+    list-style: none;
+
+}
+
+#citaIconcica{
+    font-weight: bold;
+}
+
+body{
+    background: rgba(244,237,232,255);
+    font-family: Arial, Helvetica, sans-serif;
+
+}

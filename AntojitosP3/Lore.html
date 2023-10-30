@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>AntojitosP3</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <link rel="stylesheet" href="DiseñoLore.css">
+    <link rel="shortcut icon" href="FORMULARIO EQUIPO/sexo.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <section class="frase"><strong>Creo que yo soy un 10% Lesbiana</strong></section>
+        <nav class="Navegacion">  
+            <p class="flotar">AntojitosP3</p>
+            <img src="logo.png" class="imgFlotar">
+            <a class="nav1" href="">Home</a>
+            <a class="nav2" href="">prichos</a>
+            <a class="nav3" href="">Recteas</a>
+            <a class="nav4" href="">Acerca de</a>
+            <img src="">
+            <img src="">
+
+        </nav>
+    </header>
+    <div>
+        <ul>
+            <li class="nav1-1">1 Estrella Michelín </li>
+            <li class="nav1-2">Comida con alta salubridad</li>
+            <li class="nav1-3"> Ingredientes de la granja de chiwis </li>
+            <li class="nav1-4">Verificación  de laboratorios castillejos</li>
+        </ul>
+    </div>
+    <div class="contenedor">
+        <img class="imagenJabba" src="Jabba de p3.png">
+        <h3 class="centrado"><hr class="lineaTitulo">Acerca de la creación de AntojitosP3 <br> <span class="dramatico">Y </span><br><span class="dramatico2">Aimep3-Marisol Dominguez</span></h3>
+    </div>
+    <div class="Division">
+         <p class="texto">AntojitosP3 Es la mejor comida, con los mayores estándares de calidad en Neza, Además cuenta con una variedad de comida y además verificada en salubridad por laboratorios Castillejos </p>
+         <p class="texto1">AntojitosP3 fue fundado en 1994 en la casa de AimeP3 como pasatiempo de la célebre actriz y vedette Marisol Domínguez. Tomo clases con el Gordon Ramsay, para así fundar su restaurante y otros emprendimientos </p>
+    </div>
+    <div class="Lore">
+        <h3>Historia de Aimep3-Marisol Domínguez</h3>
+        <p class="Aimep3">Marisol Domínguez Maya, también conocida por los nombres artísticos de Annie, Gory y Aimep3, es una artista polifacética. Además de su carrera como cantante, Marisol también ha destacado como modelo, actriz, chef y empresaria, siendo dueña de importantes almacenes y su nuevo restaurante AntojitosP3 que abrió en 1994 en su propia casa para en poco tiempo conseguir su primera estrella Michelin por su icónica receta de pozole de lavadero. Esto a su corta edad de 23 casi 24 años. Actualmente tiene 35 o más muchos más</p>
+        <img  class="ImgAimep3" src="Aimep3.png">
+    </div>
+    <div class="comentarios">
+        <h3 class="centrado2"><hr class="lineaComentarios">Comentario de nuestros clientes</h3>
+        <div class="textos">
+            <img class="imagenComillas" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHwFKIIjAERcES1uIFgCjHZcAZnt-VzvLSz1nWdYw4l_aD8Mpi">
+            <h4 id="frase">Símbolo lésbico y LGTB</h4>
+            <p id="textoIconico">En mi opinión Mary es el símbolo lésbico y LGTB 📺, más grande de la historia ella con sus platillos me ayudó a aceptarme tal y como soy, con todo e imperfecciones, porque nací así.</p>
+            <cite id="citaIconcica">-Lady Gaga</cite>
+            <button id="boton1" class="boton1" onclick="cambio1()"></button>
+            <button id="boton2" class="boton2" onclick="cambio2()"></button>
+            <button id="boton3" class="boton3" onclick="cambio3()"></button>
+            <button id="boton4" class="boton4" onclick="cambio4()"></button>
+
+        </div>
+    </div>
+    <div class="Descuento">
+        <h3>AntojitosP3</h3>
+        <p>Ingrese su correo para recibir un <strong>descuento del 20% en su primera compra</strong></p>
+        <form name="descuento" action="correo.php" method="post">
+            <input class="controls" type="email" name="email" id="email" onkeypress="validaremail(document.alfa.email)" placeholder="Ingrese Un Email" pattern="^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$" title="Ingrese un correo valido tipo @hotmail.com" required>
+            <input class="botons" type="submit" onclick="envio()" value="Registrar" >
+        </form>
+    </div>
+    <div class="pie">
+        <h3 class="flotar2">AntojitosP3</h3>
+        <img src="logo.png" class="imgFlotar">
+        <p class="direccion">Av. Adolfo López Mateos 55, <br>Metropolitana 2da Secc, <br>57740 Nezahualcóyotl, Méx.</p>
+        <p class="numero">33-13842531</p>
+        <p class="correo">ulises.hernandez1339@alumnos.udg.mx</p>
+
+        <hr class="divisionAcerca">
+        <ul>
+            <li class="acercaDe">Acerca de nostros</li>
+            <li class="acerca1">Estrella Michelin</li>
+            <li class="acerca2">Sustentables</li>
+            <li class="acerca3" onclick="info()">contactanos</li>
+
+        </ul>
+        <ul>
+            <li class="info1">Creadores de la página</li>
+            <li class="info2" onclick="Uli()">Ulises Hernandez</li>
+            <li class="info3" onclick="Oscar()">Oscar Rivera</li>
+            <li class="info4" onclick="Meli()">Melina Gonzalez</li>
+            <li class="info5" onclick="Edwin()">Edwin Ramos</li>
+            <li class="info6" onclick="Arturo()">Arturo Gonzalez</li>
+        </ul>
+        <hr class="redes">
+        <h5 class="textoredSocial">Conecta con nosotros</h5>
+        <div class="social">
+            <a href="https://www.instagram.com/aimep3ofiicial/?hl=es"><img class="redSocial1" src="https://icones.pro/wp-content/uploads/2021/02/instagram-icone-noir.png" ></a>
+            <a href="https://www.facebook.com/people/PODER-P3/100086029613999/"><img class="redSocial2" src="https://icones.pro/wp-content/uploads/2021/02/facebook-icone-noir.png"></a>
+            <a href="https://youtube.com/@aimep3?si=u2JZ6-ABOxYWRLsF"><img class="redSocial3" src="https://icones.pro/wp-content/uploads/2021/02/youtube-logo-icone-noir.png" ></a>
+        </div>  
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="AccionesLore.js"></script>
+</body>
+</html>

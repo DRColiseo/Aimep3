@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/estilo.css" />
+    <link rel="stylesheet" href="css_inicio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="imagenes/jpg" href="imagenes/icono.jpg">
+    <style type="text/css">
+        a:link, a:visited, a:active {
+            text-decoration:none;
+            color: #fff;
+        }
+    </style>
+    <title>INICIO DE SESIÓN</title>
+</head>
+
+<body>
+    <main>
+        <div class = "contenedor">
+            <form action="" class="formulario" id="formulario">
+
+                <!--GRUPO USUARIO-->
+                <div class="formulario__grupo" id="grupo__usuario">
+                    <label for="usuario" class="formulario__label">Usuario</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="ej: Nito89">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">RECUERDA GORYLOVER: tu usuario de pricha tiene entre 4 a 16 dígitos, y sólo tiene letras, números y/o guión bajo.</p>
+                </div>
+    
+                <!--GRUPO CONTRASEÑA-->
+                <div class="formulario__grupo" id="grupo__password">
+                    <label for="password" class="formulario__label">Contraseña</label>
+                    <div class="formulario__grupo-input">
+                        <input type="password" class = "formulario__input" name="password" id="password">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">RECUERDA GORYLOVER: tu contraseña tiene un rango de 6 a 20 dígitos, una letra minúscula, una letra mayúscula, un número, y un carácter especial</p>
+                </div>
+    
+    
+                <!--MENSAJE DE ERROR (CREO QUE NO FUNCIONA xdxd)-->
+                <div class="formulario__mensaje" id="formulario__mensaje">
+                    <p><i class="fas fa-exclamation-triangle"><b>ERROR:</b>CAMPOS VACÍOS O NO REGISTRADOS EN EL SISTEMA</i></p>
+                </div>
+
+
+                <!--GRUPO DE BOTONES-->
+                <div class = "contenedor__botones">
+                    <!--BOTÓN PARA ACCEDER-->
+                <div class="formulario__grupo formulario__grupo-btn-enviar">
+                    <button type="submit" class="formulario__btn">ACCEDER</button>
+                </div>
+    
+                <!--BOTÓN PARA ELIMINAR INFORMACIÓN-->
+                <div class="formulario__grupo formulario__grupo-btn-borrar">
+                    <button type="reset" class="formulario__btn">BORRAR INFORMACIÓN</button>
+                </div>
+
+                </div>
+
+                <!--BOTÓN PARA INGRESAR A PÁGINA DE REGISTRO-->
+                <div class="formulario__grupo formulario__grupo-btn-enlace">
+                    <button type="reset" class="formulario__btn"><a href=registro_sesion.html>¡VUÉLVETE UN GORYLOVER! &lt;3 </a></button>
+                </div>
+
+            </form>
+        </div>
+    </main>
+    <script src = "js_inicio.js"></script>
+    <script src = "https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>

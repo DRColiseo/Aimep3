@@ -1,0 +1,824 @@
+body{
+    overflow-x: hidden;
+    background-color: rgba(244, 237, 232, 255);
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.Navegacion{
+    line-height: .5;
+    background-color: #f4ece6;
+    color: #000; 
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    bottom: 650px;
+}
+
+
+.nav1{
+    margin-left: 30px;
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    right: 350px;
+    font-size: 17px;
+
+
+}
+
+.nav1:hover{
+    text-decoration:underline;
+}
+
+.nav2{
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    right: 300px;
+    font-size: 17px;
+
+
+}
+
+.nav2:hover{
+    text-decoration:underline;
+}
+
+.nav3{
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    right: 250px;
+    font-size: 17px;
+
+
+}
+
+.nav3:hover{
+    text-decoration:underline;
+}
+
+.nav4{
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    right: 200px;
+    font-size: 17px;
+    
+
+}
+
+.nav4:hover{
+    text-decoration:underline;
+}
+
+.nav1-1{
+    text-decoration: none;
+    position: relative;
+    top: 105px;
+    font-size: 17px;
+    left: 200px;
+    list-style: none;
+
+}
+
+.nav1-2{
+    text-decoration: none;
+    position: relative;
+    top: 85px;
+    font-size: 17px;
+    left: 425px;
+    list-style: none;
+
+}
+
+.nav1-3{
+    text-decoration: none;
+    position: relative;
+    top: 65px;
+    font-size: 17px;
+    left: 700px;
+    list-style: none;
+
+}
+
+.nav1-4{
+    text-decoration: none;
+    position: relative;
+    top: 45px;
+    font-size: 17px;
+    left: 1000px;
+    list-style: none;
+}
+
+
+
+.flotar{
+    margin-left: 15px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.imgFlotar{
+    margin-top: 5px;
+    float: left;
+    height: 60px;
+
+}
+
+
+div[class|="fotos"]{
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    background-color: rgb(255, 255, 0);
+}
+
+
+p[class|="parrafos"]{
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+  
+}
+textarea[class|="area"]{
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    right: 12%;
+    top: 2040px;
+    resize: none;
+ 
+}
+img[class|="centrar"]{
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+a[class|="btn"]{
+    right: 300px;
+    top: 550px;
+    padding: 5px;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 80px;
+    background-color: rgba(244,237,232,255);
+    border: solid #000;
+    cursor: pointer;
+}
+
+h1[class|="titulos"]{
+    text-decoration: none;
+    position: absolute;
+  
+    font-size: 20px;
+}
+footer[class|="footer"]{
+    text-decoration: none;
+    position: absolute;
+    background-color: black;
+    height: 500px;
+    font-size: 20px;
+    left: 0px;
+    width: 100%;
+    top: 3000px;
+}
+label[class|="etiquetas"]{
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+   
+}
+input[class|="boton"]{
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    background-color: rgb(160, 160, 160);
+}
+input[class|="texto"]{
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+  
+}
+.frase{
+    line-height: 1.7;
+    background-color: #f07d69;
+    color: #000; 
+    position: absolute;
+    top: -35px;
+    left: 0px;
+    right: 0px;
+    bottom:60px;
+    text-align: center;
+    text-transform:capitalize;
+    font-family: GT Eesti Light;
+    font-size: 15px;
+}
+
+
+/* Titulos */
+h1.titulos-1{
+    left: 300px;
+    top: 700px;
+    height: 50px;
+    width: 200px;
+}
+h1.titulos-2{
+    left: 300px;
+    top: 1900px;
+    height: 50px;
+    width: 200px;
+}
+h1.titulos-3{
+    left: 43%;
+    top: 2700px;
+    height: 50px;
+    width: 200px;
+}
+h1.titulos-4{
+    left: 10%;
+    top: 50px;
+    height: 50px;
+    width: 200px;
+}
+h1.titulos-5{
+    left: 500px;
+    top: 350px;
+    height: 50px;
+    width: 200px;
+}
+/* Botones */
+input.boton-1{
+    right: 325px;
+    top: 550px;
+  
+}
+input.boton-2{
+    left: 400px;
+    top: 1050px;
+    
+ 
+}
+a.btn-1{
+    position: absolute;
+    left: 300px;
+    top: 980px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgba(244,237,232,255);
+    border: solid #000;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #868686;
+  }
+
+.btn-1:hover{
+  background-color: #868686;
+}
+input.boton-3{
+    right: 36%;
+    top: 2300px;
+    background-color: rgba(244,237,232,255);
+    border: solid #000;
+    cursor: pointer;
+ 
+}
+
+input.boton-3:hover{
+    background-color: #868686;
+
+}
+
+
+input.boton-4{
+    right: 30%;
+    top: 2950px;
+    width: 200px;
+ 
+}
+/* Texto */
+input.texto-1{
+    right: 10%;
+    top: 1855px;
+    width: 190px;
+ 
+}
+input.texto-2{
+    right: 27.5%;
+    top: 1855px;
+    width: 190px;
+ 
+}
+input.texto-3{
+    right: 12%;
+    top: 1940px;
+    width: 425px;
+    
+ 
+}
+input.texto-4{
+    right: 48%;
+    top: 2950px;
+   
+    
+ 
+}
+/* Etiquetas */
+label.etiquetas-1{
+    right: 200px;
+    top: 500px;
+    height: 50px;
+    width: 200px; 
+}
+label.etiquetas-2{
+    right: 10%;
+    top: 1800px;
+    height: 50px;
+    width: 200px; 
+}
+label.etiquetas-3{
+    right: 27.5%;
+    top: 1800px;
+    height: 50px;
+    width: 200px; 
+}
+label.etiquetas-4{
+    right: 27.5%;
+    top: 1900px;
+    height: 50px;
+    width: 200px; 
+}
+label.etiquetas-5{
+    right: 27.5%;
+    top: 1990px;
+    height: 50px;
+    width: 200px; 
+}
+/* Parrafos */
+p.parrafos-1{
+    left: 200px;
+    top: 470px;
+    height: 200px;
+    width: 500px;
+   
+}
+p.parrafos-2{
+    left: 300px;
+    top: 750px;
+    height: 250px;
+    width: 400px;
+}
+p.parrafos-3{
+    left: 15%;
+    top: 1500px;
+    height: 200px;
+    width: 300px;
+}
+p.parrafos-4{
+    left: 40%;
+    top: 1500px;
+    height: 200px;
+    width: 300px;
+}
+p.parrafos-5{
+    left: 65%;
+    top: 1500px;
+    height: 200px;
+    width: 300px;
+}
+p.parrafos-6{
+    left: 300px;
+    top: 1950px;
+    height: 200px;
+    width: 400px;
+}
+p.parrafos-7{
+    left: 33%;
+    top: 2780px;
+    height: 100px;
+    width: 500px;
+}
+p.parrafos-8{
+    left: 10%;
+    top: 120px;
+    height: 100px;
+    width: 200px;
+}
+p.parrafos-9{
+    left: 10%;
+    top: 250px;
+    height: 100px;
+    width: 200px;
+}
+p.parrafos-10{
+    left: 60%;
+    top: 130px;
+    height: 100px;
+    width: 100px;
+}
+p.parrafos-11{
+    left: 40%;
+    top: 130px;
+    height: 100px;
+    width: 100px;
+}
+
+/* Fotos */
+div.fotos-1{
+    left: 0px;
+    top: 150px;
+    height: 300px;
+    width: 100%;  
+}
+div.fotos-2{
+    right: 300px;
+    top: 700px;
+    height: 380px;
+    width: 300px;  
+}
+div.fotos-3{
+    left: 15%;
+    top: 1200px;
+    height: 300px;
+    width: 300px;  
+}
+div.fotos-4{
+    left: 40%;
+    top: 1200px;
+    height: 300px;
+    width: 300px;  
+}
+div.fotos-5{
+    left: 65%;
+    top: 1200px;
+    height: 300px;
+    width: 300px;  
+}
+div.fotos-6{
+    left: 0px;
+    top: 2700px;
+    height: 300px;
+    width: 100%;  
+}
+div.fotos-7{
+    left: 0px;
+    top: 2400px;
+    height: 300px;
+    width: 100%;  
+}
+div.fotos-8{
+    background-color: #000;
+    left: 0px;
+    top: 2600px;
+    height: 300px;
+    width: 100%;  
+}
+/* Lineas */
+div.lineas-1{
+    left: 500px;
+    top: 100px;
+     
+}
+div.lineas-2{
+    left: 500px;
+    top: 300px;
+     
+}
+/*Header*/
+div.header-1{
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    top: -10px;
+     
+}
+/* Iconos */
+div.icon-1{
+    left: 500px;
+    top: 430px;
+    height: 50px;
+    width: 50px;
+}
+div.icon-2{
+    left: 560px;
+    top: 430px;
+    height: 50px;
+    width: 50px;
+}
+div.icon-3{
+    left: 620px;
+    top: 430px;
+    height: 50px;
+    width: 50px;
+}
+div.icon-4{
+    left: 680px;
+    top: 430px;
+    height: 50px;
+    width: 50px;
+}
+
+.Descuento{
+
+    clear: left;
+    background-color: #c2dd48;
+    position: absolute;
+    text-align: center;
+    top: 2400px;
+    left: 0px;
+    right: 0px;
+    bottom: -800px;
+}
+
+
+.controls{
+    border: none;
+    width: 250px;
+    height: 25px;
+}
+
+.botons{
+    background-color: #000;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 25px;
+    cursor:pointer;
+}
+
+.botons:hover{
+    background-color: #3b3a3a;
+
+}
+
+.pie{
+    clear: left;
+    background-color: black;
+    position: absolute;
+    text-align: center;
+    top: 2600px;
+    left: 0px;
+    right: 0px;
+    bottom: -2300px;
+}
+
+.flotar2{
+    margin-left: 30px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.direccion{
+    clear: left;
+    margin-left: 30px;
+    float: left;
+    font-size: 13px;
+    text-align: justify;
+    color: white;
+}
+
+.numero{
+    clear: left;
+    margin-left: 30px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 45px;
+}
+
+.correo{
+    clear: left;
+    margin-left: 30px;
+    float: left;
+    font-size: 12px;
+    text-align: justify;
+    color: white;
+    margin-top: 0px;
+}
+
+.divisionAcerca{
+    position: absolute;
+    height: 2px;
+    background-color: white;
+    border: none;
+    width: 550px;
+
+    /*Acomodar las lineas*/
+    top: 65px;
+    left: 500px;
+}
+
+
+.acercaDe{    
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    font-weight: bold;
+    /*Acomodar las lineas*/
+    top: 90px;
+    left: 500px;
+}
+
+.acerca1{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    /*Acomodar las lineas*/
+    top: 120px;
+    left: 500px;
+}
+
+.acerca2{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    /*Acomodar las lineas*/
+    top: 140px;
+    left: 500px;
+}
+
+.acerca3{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 160px;
+    left: 500px;
+}
+
+.acerca3:hover{
+    color: #FF6B6B;
+    
+}
+
+.redes{
+    position: absolute;
+    height: 1px;
+    background-color: white;
+    border: none;
+    width: 550px;
+
+    /*Acomodar las lineas*/
+    top: 190px;
+    left: 500px;
+}
+
+.info1{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    font-weight: bold;
+    /*Acomodar las lineas*/
+    top: 90px;
+    left: 750px;
+}
+
+.info2{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 120px;
+    left: 750px;
+}
+
+.info2:hover{
+    color: #FF6B6B;
+}
+
+.info3{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 140px;
+    left: 750px;
+}
+
+.info3:hover{
+    color: #FF6B6B;
+}
+
+.info4{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 160px;
+    left: 750px;
+}
+
+.info4:hover{
+    color: #FF6B6B;
+}
+
+.info5{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 120px;
+    left: 900px;
+}
+
+.info5:hover{
+    color: #FF6B6B;
+}
+
+.info6{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    cursor: pointer;
+    /*Acomodar las lineas*/
+    top: 140px;
+    left: 900px;
+}
+
+
+.info6:hover{
+    color: #FF6B6B;
+}
+
+.textoredSocial{
+    position: absolute;
+    color: white;
+ 
+       /*Acomodar las lineas*/
+       top: 190px;
+       left: 500px;
+
+}
+
+
+.redSocial1{
+    position: absolute;
+    filter: invert(100%);
+    width: 45px;
+    height: 45px;
+       /*Acomodar las lineas*/
+       top: 240px;
+       left: 500px;
+
+}
+
+.redSocial2{
+    position: absolute;
+    filter: invert(100%);
+    width: 38px;
+    height: 38px;
+       /*Acomodar las lineas*/
+       top: 245px;
+       left: 550px;
+
+}
+
+
+.redSocial3{
+    position: absolute;
+    filter: invert(100%);
+    width: 45px;
+    height: 45px;
+       /*Acomodar las lineas*/
+       top: 240px;
+       left: 600px;
+}
+
+
+li{
+    list-style: none;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}

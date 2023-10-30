@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="sexo.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="AntojitosP3, AmeP3">
+    <meta name="description" content="AntojitosP3">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntojitosP3</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+        <header>
+            <p class="frase"><strong>Bajo mis condiciones</strong></p>
+            <nav class="Navegacion">  
+                <p class="flotar">AntojitosP3</p>
+                <img src="logo.png" class="imgFlotar">
+                <a class="nav1" href="">Home</a>
+                <a class="nav2" href="">Compañia</a>
+                <a class="nav3" href="">Lugares Tematicos</a>
+                <a class="nav4" href="">Acerca de</a>
+                <img src="">
+                <img src="">
+    
+            </nav>
+        </header>
+        <div>
+            <ul>
+                <li class="nav1-1">1 Estrella Michelín </li>
+                <li class="nav1-2">Comida con alta salubridad</li>
+                <li class="nav1-3"> Ingredientes de la granja de chiwis </li>
+                <li class="nav1-4">Verificación  de laboratorios castillejos</li>
+            </ul>
+        </div>
+        
+        
+        <div class="fotos-1">
+            <img class="centrar" src="prichos.png" alt="" height="300px">
+        </div>
+        <div>
+            <p class="parrafos-1">Antojitos prichos es el mejor lugar de nexahuacoyotl que ofrece lujosos platillos como el pozole de lavadero, la vomisqueta y como postre la chamoyada sin chamoy<br> <br> Contactanos: Ulises.hernandez1339@alumnos.udg.mx</p>
+        </div>
+        <div>
+            <label class="etiquetas-1" >Iniciar sesion</label>
+            <a class="btn" href="#">Login</a>
+          
+        </div>
+        <div>
+            <h1 class="titulos-1">Buscando oportunidades</h1>
+        </div>
+        <div>
+            <p class="parrafos-2">Estamos emocionados por tener Gorylovers en nuestro equipo de trabajo, para llevar a las futuras generaciones el LegadoP3 <br><br>Los gorylovers son apasionados, honorables, respetuosos y 35 virtudes mas, muchas mas <br>edad requerida (23 casi 24 años) </p>
+        </div>
+        <div>
+        
+            <a class="btn-1" href="#" onclick="info()">Aplicar</a>
+        </div>
+        <div class="fotos-2">
+                <img src="aimep3pou.jpg" alt="" height="380px"  width="300px">
+        </div>
+        <div class="fotos-3">
+            <img src="pozole de lavadero.jpg" alt="" height="300px" width="300px">
+        </div>
+        <div class="fotos-4">
+            <img src="ojo.jpeg" alt="" height="300px"  width="300px">
+        </div>
+        <div class="fotos-5">
+            <img src="gorylovers.jpeg" alt="" height="300px"  width="300px">
+        </div>
+        <div>
+            <p class="parrafos-3">Mi asistente de cocina, se volvió tan talentosa que incluso me superó, necesito su receta de Pozole de Lavadero. <br>-Gordon Ramsay</p>
+        </div>
+        <div>  
+            <p class="parrafos-4"> En Antojitosp3 se cocina limpio y seguro porque se entrena a nuestros empleados bajo las condiciones de Aimep3 que pueden ser 35 reglas o mas, muchas mas </p> 
+        </div>
+        <div> 
+            <p class="parrafos-5"> Fans de AimeP3: Gorilovers <br> Haters de AimeP3: Gorilovers </p>
+                
+        </div>
+        <form name="descuento" action="comentario.php" method="post" >
+            <div>
+                <label  class="etiquetas-2">Nombre</label>
+                <input name="nombre" type="text" id="nombre" class="texto-1" onkeypress="nombre(document.descuento.nombre)" required>
+            </div>
+            <div>
+                <label  class="etiquetas-3" >Email</label>
+                <input type="email" id="email" class="texto-2" name="email" onkeypress="validaremail(document.descuento.email)" required>
+            </div>
+            <div>
+                <label  class="etiquetas-4">Numero de telefono</label>
+                <input type="text" id="telefono" class="texto-3"  name="telefono" onkeypress="telefono(document.descuento.telefono)"required>
+            </div>
+            <div>
+                <label  class="etiquetas-5">Mensaje</label>
+                <textarea  class="area" cols="37" rows="10" maxlength="50"  name="com" id="com" onkeypress="com(document.descuento.com)" required></textarea>
+            </div>
+            <div>
+                <input type="submit" class="boton-3" onclick="envio2()" value="Enviar">
+            </div>
+            <div>
+                <h1 class="titulos-2">Ayudanos dejando tus opiniones</h1>
+            </div>
+            <div>
+                <p class="parrafos-6">Dejar un comentario nos ayuda a mejorar la experiencia de futuros gorilovers y nuestra para crear un espacio libre de discriminacion</p>
+            </div>
+        </form>
+        <div class="fotos-7">
+            
+        </div>
+        <div class="Descuento">
+            <h3>AntojitosP3</h3>
+            <p>Ingrese su correo para recibir un <strong>descuento del 20% en su primera compra</strong></p>
+            <form name="descuento" action="descuento.php" method="post">
+                <input class="controls" type="email" name="email" id="email" onkeypress="validaremail(document.descuento.email)" placeholder="Ingrese Un Email" pattern="^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$" title="Ingrese un correo valido tipo @hotmail.com" required>
+                <input class="botons" type="submit" onclick="envio()" value="Registrar" >
+            </form>
+        </div>
+        
+        <div class="fotos-8"></div>
+        <div class="pie">
+            <h3 class="flotar2">AntojitosP3</h3>
+            <img src="logo.png" class="imgFlotar">
+            <p class="direccion">Av. Adolfo López Mateos 55, <br>Metropolitana 2da Secc, <br>57740 Nezahualcóyotl, Méx.</p>
+            <p class="numero">33-13842531</p>
+            <p class="correo">ulises.hernandez1339@alumnos.udg.mx</p>
+    
+            <hr class="divisionAcerca">
+            <ul>
+                <li class="acercaDe">Acerca de nostors</li>
+                <li class="acerca1">Estrella Michelin</li>
+                <li class="acerca2">Sustentables</li>
+                <li class="acerca3" onclick="info()">contantanos</li>
+    
+            </ul>
+            <ul>
+                <li class="info1">Creadores de la página</li>
+                <li class="info2" onclick="Uli()">Ulises Hernandez</li>
+                <li class="info3" onclick="Oscar()">Oscar Rivera</li>
+                <li class="info4" onclick="Meli()">Melina Gonzalez</li>
+                <li class="info5" onclick="Edwin()">Edwin Ramos</li>
+                <li class="info6" onclick="Arturo()">Arturo Gonzalez</li>
+            </ul>
+            <hr class="redes">
+            <h5 class="textoredSocial">Conecta con nosotros</h5>
+            <div class="social">
+                <a href="https://www.instagram.com/aimep3ofiicial/?hl=es"><img class="redSocial1" src="https://icones.pro/wp-content/uploads/2021/02/instagram-icone-noir.png" ></a>
+                <a href="https://www.facebook.com/people/PODER-P3/100086029613999/"><img class="redSocial2" src="https://icones.pro/wp-content/uploads/2021/02/facebook-icone-noir.png"></a>
+                <a href="https://youtube.com/@aimep3?si=u2JZ6-ABOxYWRLsF"><img class="redSocial3" src="https://icones.pro/wp-content/uploads/2021/02/youtube-logo-icone-noir.png" ></a>
+            </div>  
+        </div>
+       
+    <script src="java.js"></script>
+</body>
+</html>
