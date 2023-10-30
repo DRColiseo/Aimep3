@@ -25,17 +25,16 @@ body{
     bottom: 0px;
     top: 20px;
 
-    }
+}
     
-    .cart{
+.cart{
     position: absolute;
     width:20px;
     height: 20px;
     right: 60px;
     bottom: 0px;
     top: 20px;
-    height: 25px;
-    }
+}
 
 
 .nav1{
